@@ -1,0 +1,50 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #00703c;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button {
+    padding: 0.75rem 1.5rem;
+    background-color: #00703c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  #matchesContainer {
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .match-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
